@@ -14,6 +14,8 @@
 		344FA3FD28BCBB1700190F29 /* notebook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 344FA3FB28BCBB1700190F29 /* notebook.xcdatamodeld */; };
 		344FA3FF28BCBB1800190F29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 344FA3FE28BCBB1800190F29 /* Assets.xcassets */; };
 		344FA40228BCBB1800190F29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 344FA40028BCBB1800190F29 /* LaunchScreen.storyboard */; };
+		344FA40A28BCBCF700190F29 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344FA40928BCBCF700190F29 /* DetailsViewController.swift */; };
+		344FA40C28BCBF2100190F29 /* SaveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344FA40B28BCBF2100190F29 /* SaveViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		344FA3FE28BCBB1800190F29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		344FA40128BCBB1800190F29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		344FA40328BCBB1800190F29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		344FA40928BCBCF700190F29 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		344FA40B28BCBF2100190F29 /* SaveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				344FA3F228BCBB1700190F29 /* AppDelegate.swift */,
 				344FA3F428BCBB1700190F29 /* SceneDelegate.swift */,
 				344FA3F628BCBB1700190F29 /* ViewController.swift */,
+				344FA40928BCBCF700190F29 /* DetailsViewController.swift */,
+				344FA40B28BCBF2100190F29 /* SaveViewController.swift */,
 				344FA3F828BCBB1700190F29 /* Main.storyboard */,
 				344FA3FE28BCBB1800190F29 /* Assets.xcassets */,
 				344FA40028BCBB1800190F29 /* LaunchScreen.storyboard */,
@@ -142,9 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				344FA3F728BCBB1700190F29 /* ViewController.swift in Sources */,
+				344FA40C28BCBF2100190F29 /* SaveViewController.swift in Sources */,
 				344FA3F328BCBB1700190F29 /* AppDelegate.swift in Sources */,
 				344FA3FD28BCBB1700190F29 /* notebook.xcdatamodeld in Sources */,
 				344FA3F528BCBB1700190F29 /* SceneDelegate.swift in Sources */,
+				344FA40A28BCBCF700190F29 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
